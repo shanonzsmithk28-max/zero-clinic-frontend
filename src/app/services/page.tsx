@@ -53,7 +53,7 @@ const services = [
       "Complete history translation",
       "Imaging report summaries",
       "Prescription explanations",
-      "Personal medical档案 management",
+      "Personal medical records management",
     ],
   },
   {

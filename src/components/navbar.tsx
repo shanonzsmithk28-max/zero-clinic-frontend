@@ -16,7 +16,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5">
             <div className="w-8 h-8 bg-teal-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">ZC</span>
+              <span className="text-white font-bold text-sm">LC</span>
             </div>
             <span className="text-lg font-semibold text-slate-900 tracking-tight">
               {SITE_CONFIG.nameEn}

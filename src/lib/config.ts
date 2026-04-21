@@ -1,20 +1,20 @@
-// 领诊服统一配置 - 修改此文件即可更新全站联系方式
+// LeadClinic Site Config - Update this file to change contact info across the site
 export const SITE_CONFIG = {
-  name: "领诊服",
+  name: "LeadClinic",
   nameEn: "LeadClinic",
-  slogan: "专业国际医疗导诊服务",
+  slogan: "Professional International Medical Concierge",
   sloganEn: "Professional International Medical Concierge",
   
-  // 联系方式 - 请替换为真实信息
-  phone: "+86 21-XXXX-XXXX",        // 替换为真实电话
-  wechat: "LeadClinic_SH",
-  email: "contact@drcnhelp.com",
-  address: "上海市静安区",
+  // Contact info
+  phone: "+86 191-2170-8376",
+  wechat: "xiaohuli971130",
+  email: "xiaohuli971130@163.com",
+  address: "Jing'an District, Shanghai",
   
-  // 社交媒体
+  // Social
   tiktok: "@leadclinic",
   
   // SEO
   url: "https://drcnhelp.com",
-  locale: "zh-CN",
+  locale: "en-US",
 };

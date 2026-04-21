@@ -67,12 +67,12 @@ const services = [
 ];
 
 const hospitals = [
-  { name: "Huashan Hospital", specialty: "Neurosurgery & Dermatology", zh: "华山医院" },
-  { name: "Zhongshan Hospital", specialty: "Cardiology & Hepatology", zh: "中山医院" },
-  { name: "Ruijin Hospital", specialty: "Endocrinology & Cardiology", zh: "瑞金医院" },
-  { name: "Renji Hospital", specialty: "Gastroenterology & OB/GYN", zh: "仁济医院" },
-  { name: "Shanghai Sixth People's", specialty: "Orthopedics & Sports Medicine", zh: "第六人民医院" },
-  { name: "Fudan Cancer Hospital", specialty: "Oncology & Radiotherapy", zh: "肿瘤医院" },
+  { name: "Huashan Hospital", specialty: "Neurosurgery & Dermatology", zh: "Huashan" },
+  { name: "Zhongshan Hospital", specialty: "Cardiology & Hepatology", zh: "Zhongshan" },
+  { name: "Ruijin Hospital", specialty: "Endocrinology & Cardiology", zh: "Ruijin" },
+  { name: "Renji Hospital", specialty: "Gastroenterology & OB/GYN", zh: "Renji" },
+  { name: "Shanghai Sixth People's", specialty: "Orthopedics & Sports Medicine", zh: "Sixth People's" },
+  { name: "Fudan Cancer Hospital", specialty: "Oncology & Radiotherapy", zh: "Cancer Hospital" },
 ];
 
 const steps = [

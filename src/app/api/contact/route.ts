@@ -8,7 +8,7 @@ export async function POST(req: NextRequest) {
 
     if (!name || !email || !message) {
       return NextResponse.json(
-        { error: "请填写姓名、邮箱和留言内容" },
+        { error: "Please fill in your name, email, and message" },
         { status: 400 }
       );
     }
@@ -24,7 +24,7 @@ export async function POST(req: NextRequest) {
   } catch (error) {
     console.error("Contact error:", error);
     return NextResponse.json(
-      { error: "服务器错误，请稍后重试" },
+      { error: "Server error, please try again later" },
       { status: 500 }
     );
   }

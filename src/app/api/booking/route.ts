@@ -8,7 +8,7 @@ export async function POST(req: NextRequest) {
 
     if (!name || !email || !phone || !nationality || !symptom) {
       return NextResponse.json(
-        { error: "请填写所有必填字段" },
+        { error: "Please fill in all required fields" },
         { status: 400 }
       );
     }
@@ -34,7 +34,7 @@ export async function POST(req: NextRequest) {
   } catch (error) {
     console.error("Booking error:", error);
     return NextResponse.json(
-      { error: "服务器错误，请稍后重试" },
+      { error: "Server error, please try again later" },
       { status: 500 }
     );
   }

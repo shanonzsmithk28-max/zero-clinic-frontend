@@ -12,19 +12,19 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "领诊服 LeadClinic | 专业国际医疗导诊服务",
-    template: "%s | 领诊服 LeadClinic",
+    default: "LeadClinic | Professional International Medical Concierge in Shanghai",
+    template: "%s | LeadClinic",
   },
   description:
-    "为海外患者提供上海三甲医院就医导诊、专家预约、翻译陪诊等一站式服务。常驻静安区，覆盖华山、中山、瑞金等顶级医疗资源。",
+    "LeadClinic helps international patients access Shanghai's top-tier hospitals with full English-supported coordination. Based in Jing'an District, covering Huashan, Zhongshan, Ruijin, and Renji hospitals.",
   keywords: [
-    "上海医疗旅游",
-    "中国看病",
-    "国际医疗导诊",
-    "三甲医院预约",
-    "医疗翻译",
-    "陪诊服务",
-    "海外患者来华就医",
+    "Shanghai medical tourism",
+    "China hospital guide",
+    "international medical concierge",
+    "tertiary hospital booking",
+    "medical translation Shanghai",
+    "patient escort service",
+    "overseas patient China",
     "medical tourism China",
     "Shanghai hospital guide",
     "international patient service",
@@ -45,26 +45,26 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    locale: "zh_CN",
+    locale: "en_US",
     url: "https://drcnhelp.com",
-    siteName: "领诊服 LeadClinic",
-    title: "领诊服 LeadClinic | 专业国际医疗导诊服务",
+    siteName: "LeadClinic",
+    title: "LeadClinic | Professional International Medical Concierge in Shanghai",
     description:
-      "为海外患者提供上海三甲医院就医导诊、专家预约、翻译陪诊等一站式服务。",
+      "LeadClinic helps international patients access Shanghai's top-tier hospitals with full English-supported coordination.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "领诊服 LeadClinic 国际医疗导诊服务",
+        alt: "LeadClinic - International Medical Concierge Service in Shanghai",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "领诊服 LeadClinic | 专业国际医疗导诊服务",
+    title: "LeadClinic | Professional International Medical Concierge in Shanghai",
     description:
-      "为海外患者提供上海三甲医院就医导诊、专家预约、翻译陪诊等一站式服务。",
+      "LeadClinic helps international patients access Shanghai's top-tier hospitals with full English-supported coordination.",
     images: ["/og-image.jpg"],
   },
   metadataBase: new URL("https://drcnhelp.com"),
