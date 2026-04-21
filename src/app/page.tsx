@@ -130,7 +130,7 @@ export default function HomePage() {
               <span className="text-teal-600">Guided by Experts</span>
             </h1>
             <p className="text-lg lg:text-xl text-slate-600 leading-relaxed mb-8 max-w-2xl">
-              ZeroClinic helps international patients access Shanghai's top-tier hospitals —
+              LeadClinic helps international patients access Shanghai's top-tier hospitals —
               with full English-supported coordination from first contact to follow-up care.
             </p>
             <div className="flex flex-wrap items-center gap-4">

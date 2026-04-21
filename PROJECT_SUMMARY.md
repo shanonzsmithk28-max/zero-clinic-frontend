@@ -1,11 +1,11 @@
-# 零诊服 ZeroClinic 项目总结
+# 领诊服 LeadClinic 项目总结
 
 ## 项目概述
 
-**零诊服 ZeroClinic**是一个为海外患者提供上海三甲医院就医导诊服务的网站。常驻上海静安区，覆盖华山、中山、瑞金、仁济等顶级医疗资源。
+**领诊服 LeadClinic**是一个为海外患者提供上海三甲医院就医导诊服务的网站。常驻上海静安区，覆盖华山、中山、瑞金、仁济等顶级医疗资源。
 
 - **网站地址**: https://drcnhelp.com
-- **GitHub**: https://github.com/shanonzsmithk28-max/ZeroClinic
+- **GitHub**: https://github.com/shanonzsmithk28-max/LeadClinic
 - **技术栈**: Next.js 16 + React 19 + TypeScript + Tailwind CSS + Prisma + SQLite
 - **部署平台**: Vercel
 

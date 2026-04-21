@@ -9,7 +9,7 @@ export default function AboutPage() {
       <section className="bg-slate-50 pt-20 pb-16">
         <div className="container-custom max-w-3xl">
           <h1 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
-            About ZeroClinic
+            About LeadClinic
           </h1>
           <p className="text-lg text-slate-600 leading-relaxed">
             We bridge the gap between international patients and Shanghai's world-class healthcare system.
@@ -25,7 +25,7 @@ export default function AboutPage() {
                 Our Mission
               </h2>
               <p className="text-slate-600 leading-relaxed mb-6">
-                ZeroClinic was founded on a simple belief: world-class medical care should be accessible to everyone, regardless of language or geography. Based in Shanghai's Jing'an District, we serve as the trusted guide for international patients navigating China's complex healthcare landscape.
+                LeadClinic was founded on a simple belief: world-class medical care should be accessible to everyone, regardless of language or geography. Based in Shanghai's Jing'an District, we serve as the trusted guide for international patients navigating China's complex healthcare landscape.
               </p>
               <p className="text-slate-600 leading-relaxed mb-6">
                 We don't just book appointments -- we design complete medical journeys. From the moment you reach out to the day you return home, our team ensures every detail is handled with professionalism, empathy, and cultural sensitivity.

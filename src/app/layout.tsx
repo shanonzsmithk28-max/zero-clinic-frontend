@@ -12,8 +12,8 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "零诊服 ZeroClinic | 专业国际医疗导诊服务",
-    template: "%s | 零诊服 ZeroClinic",
+    default: "领诊服 LeadClinic | 专业国际医疗导诊服务",
+    template: "%s | 领诊服 LeadClinic",
   },
   description:
     "为海外患者提供上海三甲医院就医导诊、专家预约、翻译陪诊等一站式服务。常驻静安区，覆盖华山、中山、瑞金等顶级医疗资源。",
@@ -29,9 +29,9 @@ export const metadata: Metadata = {
     "Shanghai hospital guide",
     "international patient service",
   ],
-  authors: [{ name: "ZeroClinic" }],
-  creator: "ZeroClinic",
-  publisher: "ZeroClinic",
+  authors: [{ name: "LeadClinic" }],
+  creator: "LeadClinic",
+  publisher: "LeadClinic",
   robots: {
     index: true,
     follow: true,
@@ -47,8 +47,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "zh_CN",
     url: "https://drcnhelp.com",
-    siteName: "零诊服 ZeroClinic",
-    title: "零诊服 ZeroClinic | 专业国际医疗导诊服务",
+    siteName: "领诊服 LeadClinic",
+    title: "领诊服 LeadClinic | 专业国际医疗导诊服务",
     description:
       "为海外患者提供上海三甲医院就医导诊、专家预约、翻译陪诊等一站式服务。",
     images: [
@@ -56,13 +56,13 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "零诊服 ZeroClinic 国际医疗导诊服务",
+        alt: "领诊服 LeadClinic 国际医疗导诊服务",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "零诊服 ZeroClinic | 专业国际医疗导诊服务",
+    title: "领诊服 LeadClinic | 专业国际医疗导诊服务",
     description:
       "为海外患者提供上海三甲医院就医导诊、专家预约、翻译陪诊等一站式服务。",
     images: ["/og-image.jpg"],
