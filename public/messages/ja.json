@@ -1,0 +1,383 @@
+{
+  "nav": {
+    "services": "サービス",
+    "hospitals": "病院",
+    "about": "当社について",
+    "cta": "お問い合わせ"
+  },
+  "hero": {
+    "badge": "上海静安に拠点 · 世界中の患者様をサポート",
+    "title": "上海での医療、",
+    "titleHighlight": "専門家が導く",
+    "description": "LeadClinicは、海外患者様が上海のトップ病院へのアクセスを可能にします。初回連絡から治療後のフォローまで、英語対応の完全コーディネートを提供します。",
+    "primaryCta": "ケアチームに相談",
+    "secondaryCta": "サービスを見る",
+    "stats1": "10+ 提携病院",
+    "stats2": "6言語対応",
+    "stats3": "透明な価格"
+  },
+  "painPoints": {
+    "title": "このようなお悩みありませんか？",
+    "items": [
+      {
+        "title": "上海のトップ専門家によるセカンドオピニオンが必要？",
+        "desc": "まず旅行せずに専門的なMDTコンサルテーションを受けられます。あなたの状態に適した医師をご紹介します。"
+      },
+      {
+        "title": "中国の病院での言語の壁を心配？",
+        "desc": "医療通訳者が、治療の各段階であなたと医師の間の明確なコミュニケーションを確保します。"
+      },
+      {
+        "title": "自分の病気に適した病院がわからない？",
+        "desc": "症状によって必要な専門医は異なります。あなたのケースを分析し、上海で最適な病院と専門家をマッチングします。"
+      },
+      {
+        "title": "上海に来る準備はできたが、何から始めればいい？",
+        "desc": "飛行機に乗る前に、予約、宿泊、交通など、医療の旅全体を設計します。"
+      }
+    ]
+  },
+  "services": {
+    "title": "当社のサービス",
+    "description": "上海での医療の旅のあらゆるステップをカバーするエンドツーエンドの医療コンシェルジュ。",
+    "viewAll": "すべてのサービスを見る",
+    "items": [
+      {
+        "title": "病院マッチング＆予約",
+        "desc": "症状に最適な専門医と病院をマッチングし、すべての予約手配を行います。"
+      },
+      {
+        "title": "医療翻訳",
+        "desc": "中国語、英語、日本語、韓国語など、医学用語に精通したプロ通訳者が対応します。"
+      },
+      {
+        "title": "フルケア同伴サービス",
+        "desc": "空港ピックアップから退院まで、専任コーディネーターが各病院訪問に同行します。"
+      },
+      {
+        "title": "病歴翻訳",
+        "desc": "医療報告書、画像検査、処方箋の正確な翻訳を提供します。"
+      },
+      {
+        "title": "旅行＆宿泊",
+        "desc": "病院近くのホテル、空港送迎、現地交通を手配します。"
+      },
+      {
+        "title": "医薬品サポート",
+        "desc": "処方薬の調剤と治療後の国際配送を支援します。"
+      }
+    ]
+  },
+  "hospitals": {
+    "title": "提携病院",
+    "description": "上海の一流病院と深いパートナーシップを構築し、すべての主要専門科をカバーしています。",
+    "viewAll": "すべての病院を見る"
+  },
+  "whyUs": {
+    "title": "患者様が選ぶ理由",
+    "items": [
+      {
+        "title": "数か月待たず、数日で予約",
+        "desc": "病院とのパートナーシップを活用し、数日以内に専門医の予約を確保します。"
+      },
+      {
+        "title": "言語の壁なし",
+        "desc": "医療記録の翻訳、リアルタイム通訳、英語レポートを通じて完全サポート。"
+      },
+      {
+        "title": "透明で信頼できる",
+        "desc": "隠れた費用は一切ありません。予約前にすべてのステップをご承認いただきます。"
+      }
+    ]
+  },
+  "process": {
+    "title": "当社との旅",
+    "steps": [
+      {
+        "num": "01",
+        "title": "当社に連絡",
+        "items": [
+          "病歴と目標を共有",
+          "選択肢を説明し、質問にお答え",
+          "コミットメント不要"
+        ]
+      },
+      {
+        "num": "02",
+        "title": "カスタムプラン設計",
+        "items": [
+          "ケースに最適な病院と医師を選択",
+          "完全な旅程を設計",
+          "予約前にすべてを承認"
+        ]
+      },
+      {
+        "num": "03",
+        "title": "上海での体験",
+        "items": [
+          "到着時の空港ピックアップ",
+          "すべてのステップに英語コーディネーター",
+          "すべての予約とロジスティクスを手配"
+        ]
+      },
+      {
+        "num": "04",
+        "title": "継続的サポート",
+        "items": [
+          "持ち帰り可能な治療サマリー",
+          "フォローアップ連絡",
+          "追加治療への容易な復帰"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "title": "上海での医療の旅を始める準備はできましたか？",
+    "description": "すべての良い結果は会話から始まります。あなたの状況をケアチームと共有してください。コミットメントは不要、誠実なガイダンスを提供します。",
+    "button": "ケアチームに相談"
+  },
+  "footer": {
+    "brandDesc": "上海の一流病院での医療を求める海外患者様のためのプロフェッショナル医療コンシェルジュ。",
+    "services": "サービス",
+    "company": "会社情報",
+    "contact": "お問い合わせ",
+    "wechat": "WeChat",
+    "copyright": "上海国际医療コンシェルジュ"
+  },
+  "language": {
+    "en": "English",
+    "zh": "中文",
+    "ja": "日本語",
+    "ko": "한국어"
+  },
+  "servicesPage": {
+    "title": "Our Services",
+    "subtitle": "End-to-end medical concierge services designed for international patients seeking care at Shanghai's top hospitals.",
+    "ctaTitle": "Not sure which services you need?",
+    "ctaDesc": "Every patient is different. Talk to our care team and we'll design a plan tailored to your situation.",
+    "ctaButton": "Talk to Our Care Team",
+    "items": [
+      {
+        "title": "Hospital Matching & Booking",
+        "desc": "We analyze your medical condition, preferences, and timeline to match you with the most suitable tertiary hospital and specialist in Shanghai. We handle all appointment scheduling, from initial consultations to surgery bookings.",
+        "features": [
+          "Multi-hospital comparison reports",
+          "Specialist profile analysis",
+          "Appointment time coordination",
+          "Treatment cost estimation"
+        ]
+      },
+      {
+        "title": "Medical Translation",
+        "desc": "Professional interpreters with medical backgrounds provide real-time translation in Chinese, English, Japanese, Korean, German, and French. We ensure nothing is lost in communication between you and your doctors.",
+        "features": [
+          "Real-time clinic interpretation",
+          "Medical record translation",
+          "Surgery accompaniment",
+          "Multi-language support"
+        ]
+      },
+      {
+        "title": "Full-Care Companionship",
+        "desc": "From airport pickup to hospital discharge, a dedicated coordinator accompanies you throughout your entire medical journey in Shanghai. We handle logistics so you can focus on recovery.",
+        "features": [
+          "Airport pickup & drop-off",
+          "Hospital visit coordination",
+          "Medication assistance",
+          "24/7 emergency support"
+        ]
+      },
+      {
+        "title": "Medical Record Translation",
+        "desc": "Accurate translation of your medical history, diagnostic reports, imaging studies, and prescriptions. We ensure Chinese doctors have complete information and you understand every diagnosis.",
+        "features": [
+          "Complete history translation",
+          "Imaging report summaries",
+          "Prescription explanations",
+          "Personal medical records management"
+        ]
+      },
+      {
+        "title": "Travel & Accommodation",
+        "desc": "We arrange hotel bookings near your designated hospital, airport transfers, and local transportation. We also provide area guides for Jing'an District and surrounding neighborhoods.",
+        "features": [
+          "Hospital-proximate hotels",
+          "Airport transfer service",
+          "Local transportation",
+          "City & dining guides"
+        ]
+      },
+      {
+        "title": "Medication Support",
+        "desc": "Assistance with purchasing prescription medications and arranging international shipping so you can continue treatment after returning home.",
+        "features": [
+          "Prescription fulfillment",
+          "International shipping",
+          "Dosage instructions",
+          "Refill coordination"
+        ]
+      }
+    ]
+  },
+  "hospitalsPage": {
+    "title": "Partner Hospitals",
+    "subtitle": "We partner with Shanghai's leading tertiary hospitals to ensure you receive the best possible care.",
+    "searchPlaceholder": "Search by hospital or specialty...",
+    "noResults": "No hospitals match your search.",
+    "level": "Tertiary A",
+    "ctaTitle": "Need help choosing a hospital?",
+    "ctaDesc": "Tell us about your condition and we'll recommend the best hospital and specialist for your case.",
+    "ctaButton": "Get a Free Recommendation",
+    "items": [
+      {
+        "name": "Fudan Huashan Hospital",
+        "zh": "华山医院",
+        "tags": [
+          "Neurosurgery",
+          "Dermatology",
+          "Orthopedics",
+          "Rehabilitation"
+        ],
+        "address": "12 Wulumuqi Middle Road, Jing'an District",
+        "desc": "Ranked among China's top hospitals for neurosurgery and dermatology. A leading authority in nervous system diseases."
+      },
+      {
+        "name": "Fudan Zhongshan Hospital",
+        "zh": "中山医院",
+        "tags": [
+          "Cardiology",
+          "Hepatobiliary Surgery",
+          "Gastroenterology",
+          "Respiratory"
+        ],
+        "address": "180 Fenglin Road, Xuhui District",
+        "desc": "One of China's premier comprehensive hospitals, with top-ranked cardiology and hepatobiliary surgery departments."
+      },
+      {
+        "name": "SJTU Ruijin Hospital",
+        "zh": "瑞金医院",
+        "tags": [
+          "Endocrinology",
+          "Cardiology",
+          "Burns",
+          "Hematology"
+        ],
+        "address": "197 Ruijin Second Road, Huangpu District",
+        "desc": "A historic hospital with world-class endocrinology and hematology departments. Pioneers in diabetes research."
+      },
+      {
+        "name": "SJTU Renji Hospital",
+        "zh": "仁济医院",
+        "tags": [
+          "Gastroenterology",
+          "OB/GYN",
+          "Pediatrics",
+          "Urology"
+        ],
+        "address": "145 Shandong Middle Road, Huangpu District",
+        "desc": "One of China's oldest Western medicine hospitals, renowned for gastroenterology and maternal care."
+      },
+      {
+        "name": "Shanghai Sixth People's Hospital",
+        "zh": "第六人民医院",
+        "tags": [
+          "Orthopedics",
+          "Sports Medicine",
+          "Endocrinology"
+        ],
+        "address": "600 Yishan Road, Xuhui District",
+        "desc": "Nationally recognized center for orthopedic surgery and sports medicine. Home to China's first orthopedic institute."
+      },
+      {
+        "name": "Fudan Cancer Hospital",
+        "zh": "肿瘤医院",
+        "tags": [
+          "Oncology",
+          "Radiotherapy",
+          "Surgical Oncology",
+          "TCM Oncology"
+        ],
+        "address": "270 Dong'an Road, Xuhui District",
+        "desc": "One of China's top cancer centers, offering comprehensive oncology care from diagnosis to rehabilitation."
+      }
+    ]
+  },
+  "aboutPage": {
+    "title": "About LeadClinic",
+    "subtitle": "We bridge the gap between international patients and Shanghai's world-class healthcare system.",
+    "missionTitle": "Our Mission",
+    "missionP1": "LeadClinic was founded on a simple belief: world-class medical care should be accessible to everyone, regardless of language or geography. Based in Shanghai's Jing'an District, we serve as the trusted guide for international patients navigating China's complex healthcare landscape.",
+    "missionP2": "We don't just book appointments -- we design complete medical journeys. From the moment you reach out to the day you return home, our team ensures every detail is handled with professionalism, empathy, and cultural sensitivity.",
+    "badge1": "Patient-first approach",
+    "badge2": "Transparent pricing",
+    "badge3": "English-speaking team",
+    "cards": [
+      {
+        "title": "Patient-Centered Care",
+        "desc": "Every patient receives a personalized plan designed around their unique medical needs, cultural preferences, and budget."
+      },
+      {
+        "title": "Expert Team",
+        "desc": "Our coordinators include medical professionals and certified translators who understand both Eastern and Western healthcare systems."
+      },
+      {
+        "title": "Global Reach",
+        "desc": "We have served patients from over 20 countries, with services available in 6 languages and growing."
+      }
+    ],
+    "ctaTitle": "Ready to learn more?",
+    "ctaDesc": "Have questions about our services or how we work? Our care team is here to help.",
+    "ctaButton": "Contact Our Team"
+  },
+  "bookingPage": {
+    "title": "Talk to Our Care Team",
+    "subtitle": "Share your situation with us. We'll listen carefully and provide honest guidance -- no commitment required.",
+    "successTitle": "Thank you for reaching out",
+    "successDesc": "Our care team has received your message and will contact you within 24 hours via your preferred method.",
+    "successReturn": "Return to homepage",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Your name",
+      "nationality": "Nationality",
+      "nationalityPlaceholder": "e.g. United States, Japan",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+1 234 567 8900",
+      "hospital": "Preferred Hospital",
+      "hospitalPlaceholder": "Select a hospital",
+      "hospitalOptions": [
+        "Fudan Huashan Hospital",
+        "Fudan Zhongshan Hospital",
+        "SJTU Ruijin Hospital",
+        "SJTU Renji Hospital",
+        "Shanghai Sixth People's Hospital",
+        "Fudan Cancer Hospital",
+        "Shanghai Changzheng Hospital",
+        "Shanghai Changhai Hospital",
+        "Other / Not sure yet"
+      ],
+      "department": "Department",
+      "departmentPlaceholder": "e.g. Cardiology",
+      "symptom": "Medical Condition / Symptoms",
+      "symptomPlaceholder": "Please describe your symptoms, diagnosis, and what you're looking for...",
+      "date": "Preferred Date",
+      "notes": "Additional Notes",
+      "notesPlaceholder": "Any special requirements, language needs, etc.",
+      "submit": "Submit Request",
+      "submitting": "Submitting...",
+      "required": "*",
+      "errorSubmit": "Submission failed. Please try again.",
+      "errorNetwork": "Network error. Please try again."
+    },
+    "sidebar": {
+      "nextTitle": "What happens next?",
+      "steps": [
+        "We review your submission within 24 hours",
+        "A care coordinator contacts you to discuss details",
+        "We prepare a personalized plan for your approval"
+      ],
+      "contactTitle": "Contact us directly"
+    }
+  }
+}

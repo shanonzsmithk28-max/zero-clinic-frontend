@@ -1,14 +1,20 @@
+"use client";
+
 import Link from "next/link";
+import { useTranslations } from "@/i18n/provider";
 import { Menu, X } from "lucide-react";
 import { SITE_CONFIG } from "@/lib/config";
-
-const navLinks = [
-  { href: "/services", label: "Services" },
-  { href: "/hospitals", label: "Hospitals" },
-  { href: "/about", label: "About" },
-];
+import LanguageSwitcher from "@/components/language-switcher";
 
 export default function Navbar() {
+  const t = useTranslations("nav");
+
+  const navLinks = [
+    { href: "/services", label: t("services") },
+    { href: "/hospitals", label: t("hospitals") },
+    { href: "/about", label: t("about") },
+  ];
+
   return (
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
       <div className="container-custom">
@@ -36,13 +42,14 @@ export default function Navbar() {
             ))}
           </nav>
 
-          {/* CTA */}
-          <div className="hidden md:block">
+          {/* CTA + Language */}
+          <div className="hidden md:flex items-center gap-3">
+            <LanguageSwitcher />
             <Link
               href="/booking"
               className="inline-flex items-center justify-center bg-teal-600 text-white text-sm font-medium px-5 py-2.5 rounded-full hover:bg-teal-700 transition-colors shadow-sm"
             >
-              Talk to Our Team
+              {t("cta")}
             </Link>
           </div>
 
@@ -63,12 +70,15 @@ export default function Navbar() {
                     {link.label}
                   </Link>
                 ))}
-                <div className="pt-2">
+                <div className="pt-2 space-y-2">
+                  <div className="flex justify-center">
+                    <LanguageSwitcher />
+                  </div>
                   <Link
                     href="/booking"
                     className="block w-full text-center bg-teal-600 text-white text-sm font-medium px-5 py-2.5 rounded-full hover:bg-teal-700 transition-colors"
                   >
-                    Talk to Our Team
+                    {t("cta")}
                   </Link>
                 </div>
               </div>

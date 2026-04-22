@@ -3,6 +3,9 @@ import Script from "next/script";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+import { I18nProvider } from "@/i18n/provider";
+import { getMessages } from "@/i18n";
+import { defaultLocale } from "@/i18n/config";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -75,13 +78,15 @@ export const metadata: Metadata = {
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "";
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const messages = await getMessages(defaultLocale);
+
   return (
-    <html lang="zh-CN">
+    <html lang={defaultLocale}>
       <body className="antialiased min-h-screen bg-slate-50" suppressHydrationWarning>
         {GA_ID && (
           <>
@@ -103,9 +108,11 @@ export default function RootLayout({
             />
           </>
         )}
-        <Navbar />
-        {children}
-        <Footer />
+        <I18nProvider initialMessages={messages}>
+          <Navbar />
+          {children}
+          <Footer />
+        </I18nProvider>
       </body>
     </html>
   );

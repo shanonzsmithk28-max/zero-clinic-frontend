@@ -1,21 +1,12 @@
+"use client";
+
 import Link from "next/link";
+import { useTranslations } from "@/i18n/provider";
 import { SITE_CONFIG } from "@/lib/config";
 
-const footerLinks = {
-  Services: [
-    { href: "/services", label: "Hospital Matching" },
-    { href: "/services", label: "Medical Translation" },
-    { href: "/services", label: "Full-Care Companionship" },
-    { href: "/services", label: "Record Translation" },
-  ],
-  Company: [
-    { href: "/about", label: "About Us" },
-    { href: "/hospitals", label: "Partner Hospitals" },
-    { href: "/booking", label: "Contact" },
-  ],
-};
-
 export default function Footer() {
+  const t = useTranslations();
+
   return (
     <footer className="bg-slate-900 text-slate-400">
       <div className="container-custom section-padding">
@@ -31,36 +22,66 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-sm leading-relaxed max-w-xs">
-              Professional medical concierge for international patients seeking care at Shanghai's top hospitals.
+              {t("footer.brandDesc")}
             </p>
           </div>
 
-          {/* Links */}
-          {Object.entries(footerLinks).map(([title, links]) => (
-            <div key={title}>
-              <h4 className="text-white font-semibold text-sm mb-4">{title}</h4>
-              <ul className="space-y-2.5">
-                {links.map((link) => (
-                  <li key={link.label}>
-                    <Link
-                      href={link.href}
-                      className="text-sm hover:text-white transition-colors"
-                    >
-                      {link.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+          {/* Services */}
+          <div>
+            <h4 className="text-white font-semibold text-sm mb-4">{t("footer.services")}</h4>
+            <ul className="space-y-2.5">
+              <li>
+                <Link href="/services" className="text-sm hover:text-white transition-colors">
+                  {t("services.items.0.title")}
+                </Link>
+              </li>
+              <li>
+                <Link href="/services" className="text-sm hover:text-white transition-colors">
+                  {t("services.items.1.title")}
+                </Link>
+              </li>
+              <li>
+                <Link href="/services" className="text-sm hover:text-white transition-colors">
+                  {t("services.items.2.title")}
+                </Link>
+              </li>
+              <li>
+                <Link href="/services" className="text-sm hover:text-white transition-colors">
+                  {t("services.items.3.title")}
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Company */}
+          <div>
+            <h4 className="text-white font-semibold text-sm mb-4">{t("footer.company")}</h4>
+            <ul className="space-y-2.5">
+              <li>
+                <Link href="/about" className="text-sm hover:text-white transition-colors">
+                  {t("nav.about")}
+                </Link>
+              </li>
+              <li>
+                <Link href="/hospitals" className="text-sm hover:text-white transition-colors">
+                  {t("nav.hospitals")}
+                </Link>
+              </li>
+              <li>
+                <Link href="/booking" className="text-sm hover:text-white transition-colors">
+                  {t("footer.contact")}
+                </Link>
+              </li>
+            </ul>
+          </div>
 
           {/* Contact */}
           <div>
-            <h4 className="text-white font-semibold text-sm mb-4">Contact</h4>
+            <h4 className="text-white font-semibold text-sm mb-4">{t("footer.contact")}</h4>
             <ul className="space-y-2.5 text-sm">
               <li>{SITE_CONFIG.phone}</li>
               <li>{SITE_CONFIG.email}</li>
-              <li>WeChat: {SITE_CONFIG.wechat}</li>
+              <li>{t("footer.wechat")}: {SITE_CONFIG.wechat}</li>
               <li>{SITE_CONFIG.address}</li>
             </ul>
           </div>
@@ -71,7 +92,7 @@ export default function Footer() {
             © 2026 {SITE_CONFIG.nameEn}. All rights reserved.
           </p>
           <p className="text-xs text-slate-500">
-            Shanghai International Medical Concierge
+            {t("footer.copyright")}
           </p>
         </div>
       </div>
